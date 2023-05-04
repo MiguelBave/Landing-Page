@@ -42,19 +42,21 @@ a {
 .info-left {
     display: flex;
     flex-direction: column;
+    flex: auto;
 }
 
 .info-right {
     border-radius: 25px;
     display: flex;
     justify-content: center;
+    flex: auto;
 }
 
 .portimg {
-    width: auto;
+    width: 100%;
     height: auto;
-    max-width: 540px;
-    max-height: auto;
+    max-width: 600px;
+    max-height: 400px;
 }
 
 h1 {
