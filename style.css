@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    margin: 0 auto;
+    width: 100%;
     padding: 0;
 }
 
@@ -9,8 +10,6 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding-left: 250px;
-    padding-right: 250px;
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -18,6 +17,7 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    flex: auto;
 }
 
 a {
@@ -25,6 +25,7 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     padding: 12px;
+    flex: auto;
 }
 
 /* info part */
@@ -33,10 +34,9 @@ a {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
-    padding-left: 250px;
-    padding-right: 250px;
     padding-bottom: 75px;
     gap: 50px;
+    flex: auto;
 }
 
 .info-left {
@@ -46,10 +46,15 @@ a {
 
 .info-right {
     border-radius: 25px;
-    max-width: 600px;
-    max-height: 400px;
     display: flex;
     justify-content: center;
+}
+
+.portimg {
+    width: auto;
+    height: auto;
+    max-width: 540px;
+    max-height: auto;
 }
 
 h1 {
@@ -72,3 +77,5 @@ button {
     border-radius: 12px;
     font-weight: bold;
 }
+
+/* Random info part */
