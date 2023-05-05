@@ -13,6 +13,13 @@ body {
     background-color: #1F2937;
 }
 
+.light-bg-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: whitesmoke
+}
+
 .container{
     display: flex;
     justify-content: space-between;
@@ -20,6 +27,45 @@ body {
     max-width: 960px;
     width: 100%;
     padding: 18px;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 960px;
+    width: 100%;
+    padding: 18px;
+}
+
+.info-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: inherit;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 18px;
+}
+
+.first {
+    overflow: visible;
+    max-width: 200px;
+    max-height: auto;
+    margin: 12px;
+}
+
+.info-content {
+    overflow: visible;
+    border: 8px solid#3882f6;
+    border-radius: 25%;
+    color: bisque;
+    width: 150px;
+    height: 150px;
 }
 
 a {
