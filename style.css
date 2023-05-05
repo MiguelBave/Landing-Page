@@ -27,7 +27,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     background-color: whitesmoke;
-    padding: 40px;
+    padding: 70px;
 }
 
 .container{
@@ -160,4 +160,47 @@ li {
 .head-item-left {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.bigbutton {
+    background-color: #3882f6;
+    max-width: 960px;
+    width: 100%;
+    max-height: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    color: #E5E7EB;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-radius: 35px;
+    max-width: 100px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.buttontext {
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
