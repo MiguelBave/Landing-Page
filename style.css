@@ -11,6 +11,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     background-color: #1F2937;
+    padding-bottom: 75px;
 }
 
 .textcontainer {
@@ -25,7 +26,8 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    padding: 40px;
 }
 
 .container{
@@ -58,6 +60,18 @@ h2 {
     font-size: 36px;
     font-weight: bolder;
     margin: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .first {
@@ -103,11 +117,13 @@ h2 {
 
 a {
     text-decoration: none;
+    color: #f9faf8;
 }
 
 li {  
     list-style-type: none;
     display: inline;
+    margin-left: 12px;
 }
 
 .main {
@@ -119,7 +135,7 @@ li {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap; 
-    gap: 18px;
+    gap: 6px;
     margin-right: 40px;
 }
 
@@ -139,4 +155,9 @@ li {
     max-height: 350px;
     width: 100%;
     height: auto;
+}
+
+.head-item-left {
+    font-size: 24px;
+    color: #f9faf8;
 }
