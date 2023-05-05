@@ -13,6 +13,14 @@ body {
     background-color: #1F2937;
 }
 
+.textcontainer {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
 .light-bg-container {
     display: flex;
     justify-content: center;
@@ -66,6 +74,31 @@ h2 {
     color: bisque;
     width: 150px;
     height: 150px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 960px;
+    width: 100%;
+
+}
+
+.text {
+    font-size: 36px;
+    font-family: "light italic";
+    font-style: italic;
+    color: #1F2937;
+}
+
+.textsource {
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    font-family: "light italic";
 }
 
 a {
